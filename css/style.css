@@ -1,0 +1,37 @@
+
+.home{
+    background-color: #ffffff;
+    
+}
+
+.products{
+    background-color: #7EBFCD;
+}
+
+.story{
+    background-color: #CDBD7E;
+}
+
+.stockists{
+    background-color: #ED8959;
+}
+
+.contact{
+    background-color: #112A46;
+}
+
+
+/* Mobile screen 360px x 640px */
+@media screen and (max-width: 640px) {
+    
+}
+
+/* Tablet screen 1024px x 768px */
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    
+}
+
+/* Desktop screen 1366px x 768px */
+@media screen and (min-width: 768px){
+    
+}
