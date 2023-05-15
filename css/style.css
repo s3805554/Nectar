@@ -1,37 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
 
-.home{
-    background-color: #ffffff;
-    
+html,body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #83C2CF;
 }
 
-.products{
-    background-color: #7EBFCD;
+header {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100vw;
+    align-items: center;
+    border: #d2d2d2 solid 1px;
+
 }
 
-.story{
-    background-color: #CDBD7E;
+.nav-container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    background-color: #b8e3ed;
+    color: #000000;
 }
 
-.stockists{
-    background-color: #ED8959;
+.nav-logo {
+    position: relative;
+    height: 90px;
 }
 
-.contact{
-    background-color: #112A46;
+.menu-content ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    white-space: nowrap;
 }
+
+.menu-content ul a {
+    text-decoration: none;
+    color: #000000;
+    font-size: min(24px,32px);
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
 
 
 /* Mobile screen 360px x 640px */
 @media screen and (max-width: 640px) {
+
+    .menubtn {
+        padding: 16px;
+        font-size: 18px;
+        border: none;
+        border-radius: 10px;
+        margin-right: 18px;
+        background-color: #3e8e41;
+        color: white;
+    }
+      
+    .menu {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .menu-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        width: 100vw;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px #00000033;
+        z-index: 1;
+        font-size: 20px;
+
+
+    }
+
+    .menu-content ul {
+        list-style: none;
+        display: block;
+
+    }
+      
+    .menu-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .menu-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .menu:hover .menu-content {
+        display: block;
+    }
+
+    .menu:hover .menubtn {
+        background-color: #3e8e41;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
 
 /* Tablet screen 1024px x 768px */
 @media screen and (min-width: 640px) and (max-width: 768px) {
-    
+    .menubtn {
+        display: none;
+    }
 }
 
 /* Desktop screen 1366px x 768px */
 @media screen and (min-width: 768px){
-    
+    .menubtn {
+        display: none;
+    }
+
 }
