@@ -12,26 +12,17 @@ html,body {
     background-color: #83C2CF;
 }
 
-header {
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    width: 100vw;
-    align-items: center;
-    border: #d2d2d2 solid 1px;
-
-}
-
 .nav-container {
+    width: 100vw;
     height: 6vh;
     position: fixed;
     margin: 0;
     display: flex;
     align-items: center;
-    position: relative;
     justify-content: space-between;
     background-color: #b8e3ed;
     color: #000000;
+    z-index: 2;
 }
 
 .nav-logo {
@@ -59,6 +50,7 @@ header {
 
 
 .grid-layout {
+    padding-top: 6vh;
     height: 90vh;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -115,15 +107,18 @@ header {
 
 /* Mobile screen 360px x 640px */
 @media screen and (max-width: 640px) {
-
+    .nav-logo {
+        position: relative;
+        height: 6vh;
+    }
     .menubtn {
-        padding: 16px;
-        font-size: 18px;
+        padding: 21px;
+        font-size: 24px;
         border: none;
-        border-radius: 10px;
         margin-right: 18px;
         background-color: #3e8e41;
         color: white;
+
     }
       
     .menu {
@@ -160,14 +155,17 @@ header {
       
     .menu-content a:hover {
         background-color: #f1f1f1;
+
     }
 
     .menu:hover .menu-content {
         display: block;
+
     }
 
     .menu:hover .menubtn {
         background-color: #3e8e41;
+
     }
 
 
