@@ -1,3 +1,7 @@
+.test {
+    color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +13,7 @@ html,body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #83C2CF;
+    background-color: black;
 }
 
 .nav-container {
@@ -49,62 +53,263 @@ html,body {
 }
 
 
-.grid-layout {
+
+
+/* home screen 3 x 3 grid layout */
+
+.home-grid-layout {
     padding-top: 6vh;
-    height: 90vh;
+    height: 94vh;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 0px;
     column-gap: 0px;
     position:sticky;
-
 }
-.grid-layout div {
+
+.home-grid-layout div {
     align-items: center;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-.grid-layout img {
+.home-grid-layout img {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 31.3vh;
     background-color: #99cedb;
+}
+
+.home-grid-layout .middle-image {
+    height: 100%;
+    width: auto;
+}
+
+/* products screen 2 x 3 grid layout */
+.product-articles {
+    padding-top: 2vh;
+    width: 15vw;
+    text-align: justify;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.section-title, .section-title-stockists, .section-title-contact {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2vh;
 
 }
 
-.grid-layout .middle-image {
+.section-title-story, .section-title-stockists, .section-title-contact  {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+
+}
+
+.products-grid-layout {
+    padding-top: 2vh;
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0px;
+    column-gap: 0px;
+    position:sticky;
+
+}
+
+.products-grid-layout div {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: solid 1.5px #ffffff;
+    
+}
+
+.products-grid-layout img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 31.3vh;
+    background-color: #99cedb;
+    border-radius: 25px;
+    border: solid 3px #ffffff;
+    box-shadow: 0px 3px 3px 3px #000000;
+}
+
+.products-grid-layout .middle-image {
     
     height: 100%;
     width: auto;
 }
 
-#products {
-    width: 100vw;
-    height: 100vh;
-    background-color: #b8e3ed;
+.img-10 {
+    /* Winter Cherry */
+    background-color: #f17273;
 }
+
+.img-11 {
+    background-color: #f1a470;
+}
+
+.img-12 {
+    background-color: #f1c471;
+}
+
+.img-13 {
+    background-color: #c7dfbd;
+}
+
+.img-14 {
+    background-color: #bfd8dd;
+}
+
+.img-15 {
+    background-color: #707070;
+}
+
 
 #ourstory {
     width: 100vw;
     height: 100vh;
-    background-color: #b8e3ed;
+    background-color: #bfd8dd;
+    
 }
 
 #stockists {
     width: 100vw;
     height: 100vh;
-    background-color: #b8e3ed;
+    background-color: #bfd8dd;
+}
+
+.spacer {
+    width: 100%;
+    height: 6vh;
+    color: #ffffff;
 }
 
 #contact {
     width: 100vw;
     height: 100vh;
-    background-color: #b8e3ed;
+    background-color: #bfd8dd;
 }
+
+
+#ourstory {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#ourstory section {
+    display: block;
+    text-align: justify;
+    width: 100%;
+    height: 100%;    
+}
+
+#ourstory section article {
+    padding: 10vh 30vh 0vh 30vh;
+}
+
+#ourstory section article p {
+    font-size: 1.8vw;
+    padding: 15px;
+    border: #ffffff 3px solid;
+    box-shadow: 0px 3px 3px 3px #000000;
+    border-radius: 25px;
+    background-color: #9db8c0;
+    color: #393737;
+}
+
+
+/* STOCKISTS - SETTINGS*/
+
+.stockists {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align:center;
+}
+
+
+.stockists-container {
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 5vh 6vw 6vw 6vw;
+
+}
+
+.stockists-details {
+    display: block;
+    padding-top: 40px;
+    border: #ffffff 3px solid;
+    box-shadow: 0px 3px 3px 3px #000000;
+    background-color: #9db8c0;
+    height: 20vh;
+    margin: 50px;
+    border-radius: 25px;
+    justify-content: center;
+
+}
+
+.stockists-details address {
+    padding-top: 2vh;
+    text-align:center;
+    width: 90%;
+}
+
+.stockists-details a {
+    text-transform: capitalize;
+}
+
+.stockists-details h2 a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1vw;
+    color:#ffffff;
+    padding-left: 20px;
+
+}
+
+.stockists-details a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: #000000;
+
+}
+
+.stockists-details h3{
+    text-decoration: none;
+    font-size: 1vw;
+    color: #000000;
+    padding-left: 30px;
+
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
+
+
+
+
+
 
 /* Mobile screen 360px x 640px */
 @media screen and (max-width: 640px) {
@@ -113,7 +318,7 @@ html,body {
         height: 6vh;
     }
     .menubtn {
-        padding: 21px;
+        padding: 18px;
         font-size: 24px;
         border: none;
         margin-right: 18px;
