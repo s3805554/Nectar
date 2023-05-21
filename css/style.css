@@ -332,13 +332,13 @@ span{
     position: relative;  /* set position relative to its normal position*/
     width: 100%; /* Set to width of parent element*/
     height: 47vh; /* Set to reference height of parent element*/
-    font-size: 2vw; /* set font size*/
+    font-size: 5vw; /* set font size*/
 }
 
 .contact-bottom-section article {
-    font-size: 14px; /* set font size*/
+    font-size: 16px; /* set font size*/
     text-align: right; /* align text to the right side*/
-    padding-right: 40vw;  /* set inside spacing area value*/
+    padding-right: 43vw;  /* set inside spacing area value*/
 }
 
 #fname, #lname , #email{
@@ -468,13 +468,13 @@ span{
     }
     
     #ourstory section article {
-        padding: 15vh 0vh 0vh 0vh;  /* set inside spacing area value*/
+        padding: 5vh 2vh 0vh 2vh;  /* set inside spacing area value*/
     }
     
     #ourstory section article p {
         font-size: 4vw; /* set font size*/
         font-weight: bold;  /* set font thicker */
-        padding: 2vh 1vh 2vh 1vh;  /* set inside spacing area value*/
+        padding: 2vh 3vh 2vh 3vh;  /* set inside spacing area value*/
         border-radius: 0px; /* remove rounded corners*/
     }
     
@@ -524,15 +524,15 @@ span{
     }
 
     .stockists-container h2 a{
-        font-size: 1vw; /* set font size*/
+        font-size: 5vw; /* set font size*/
     }
 
     .stockists-container h3 {
-        font-size: 1vw; /* set font size*/
+        font-size: 5vw; /* set font size*/
     }
 
     .stockists-container a{
-        font-size: 1vw; /* set font size*/
+        font-size: 5vw; /* set font size*/
     }
 
     /* our products mobile settings
@@ -596,10 +596,12 @@ span{
         display: none; /* dont display menu until needed by hover*/
 
     }
+
     .nav-logo {
         position: relative; /* set position relative to its normal position*/
         height: 6vh; /* Set to reference height of parent element*/
     }
+
     .menubtn {
         padding: 0px 8px 0px 8px;  /* set inside spacing area value*/
         font-size: 22px; /* set font size*/
@@ -682,15 +684,13 @@ span{
     #ourstory {
         display: inline-block; /*display an element as a block with width and height feature */
         width: 100vw; /* Set to width of parent element*/
-        
-
     }
 
     #ourstory section {
         display: inline-block; /*display an element as a block with width and height feature */
         text-align: justify; /* stretch text to have even left and right sides*/
-
     }
+
     #ourstory section article {
         width: 80vw; /* Set to width of parent element*/
         padding-left: 10vw;  /* set inside spacing area value*/
@@ -731,7 +731,6 @@ span{
         margin-top: 50vh;
     }
 
-    }
     .stockists-container h2 a{
         font-size: 2vw; /* set font size*/
     }
