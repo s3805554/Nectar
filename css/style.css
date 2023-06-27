@@ -11,8 +11,8 @@
 
   /* set all margins and padding are to zero pixels*/
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* set margin to none */
+    padding: 0; /* set padding to none */
     }
 
 
@@ -23,6 +23,7 @@ html,body {
     width: 100vw; /* Set to width of parent element*/
     height: 100vh; /* Set to height of parent element*/
     background-color: black; /* Add background color*/
+    overflow: hidden; /* hide scroll bar*/
 }
 
 .nav-container {
@@ -30,12 +31,12 @@ html,body {
     height: 6vh; /* Set to reference height of parent element*/
     position: fixed; /* set position so always at top and on top*/
     margin: 0; /* set outside area value*/
-    display: flex; /* set display to flexbbox to allow for flexibility on direction*/
+    display: flex; /* set display to flexbox to allow for flexibility on direction*/
     align-items: center; /* center items relevant to parent*/
     justify-content: space-between; /* evenly space items*/
     background-color: #b8e3ed; /* Add background color*/
     color: #000000; /* set font color*/
-    z-index: 2; /* set container element higher so remains ontop*/
+    z-index: 2; /* set container element higher so remains on top*/
     
 }
 
@@ -47,7 +48,7 @@ html,body {
 .menu-content ul {
     width: 100%; /* Set to width of parent element*/
     list-style: none; /* remove dots from start of words*/
-    display: flex; /* set display to flexbbox to allow for flexibility on direction*/
+    display: flex; /* set display to flexbox to allow for flexibility on direction*/
     margin-right: 30px; /* set outside area value*/
     white-space: nowrap; /* stop text wrap*/
 }
@@ -99,12 +100,12 @@ html,body {
     width: auto; /* Set to width of parent element*/
 }
 
+
 /* products screen 2 x 3 grid layout */
 .product-articles {
-    padding-top: 2vh;  /* set inside spacing area value*/
     width: 15vw;  /* Set to width of parent element*/
     text-align: justify; /* stretch text to have even left and right sides*/
-    word-wrap: break-word;
+    word-wrap: break-word; /* wrap dividing words if needed*/
     font-size: 18px; /* set font size*/
 }
 
@@ -112,7 +113,6 @@ html,body {
     color: #ffffff; /* add font color*/
     text-align: center; /* centre items in parent*/
     padding-top: 2vh;  /* set inside spacing area value*/
-
 }
 
 .section-title-story, .section-title-stockists, .section-title-contact  {
@@ -120,7 +120,6 @@ html,body {
     text-align: center; /* centre items in parent*/
     padding-top: 3vh;  /* set inside spacing area value*/
     padding-bottom: 3vh;  /* set inside spacing area value*/
-
 }
 
 .products-grid-layout {
@@ -132,7 +131,6 @@ html,body {
     row-gap: 0px; /* set 0 gap between grids*/
     column-gap: 0px; /* set 0 gap between grids*/
     position:sticky; /* element is positioned according to the normal flow of the document*/
-
 }
 
 .products-grid-layout div {
@@ -141,7 +139,6 @@ html,body {
     display: flex; /* set display type tp flexbox for flexible direction*/
     justify-content: center; /* centre items in parent*/
     border: solid 1.5px #ffffff; /* add outline border*/
-    
 }
 
 .products-grid-layout img {
@@ -152,37 +149,97 @@ html,body {
     background-color: #99cedb; /* Add background color*/
     border-radius: 15px; /* add outline border radius for nicer corners*/
     border: solid 3px #ffffff; /* add outline border*/
-    box-shadow: 0px 3px 3px 3px #000000;
+    box-shadow: 0px 3px 3px 3px #000000; /* set outside shadow effect*/
 }
 
 .products-grid-layout .middle-image {
-    
     height: 100%;  /* Set to reference height of parent element*/
     width: auto; /* let width adjust automatically by design*/
 }
 
+.products-conatiner-01 article, 
+.products-conatiner-02 article, 
+.products-conatiner-03 article, 
+.products-conatiner-04 article, 
+.products-conatiner-05 article, 
+.products-conatiner-06 article {
+    text-align: center; /* align text horizontal center */
+}
+
+.products-conatiner-01 h4, 
+.products-conatiner-02 h4, 
+.products-conatiner-03 h4, 
+.products-conatiner-04 h4, 
+.products-conatiner-05 h4, 
+.products-conatiner-06 h4 {
+    color: #000000; /* set font color */
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* change font style */
+    margin-top: 3px; /* set space outside on top of container */
+    margin-bottom: 3px; /*  set space outside on bottom of container */
+}
+
+.products-conatiner-01 article p, 
+.products-conatiner-02 article p, 
+.products-conatiner-03 article p, 
+.products-conatiner-04 article p, 
+.products-conatiner-05 article p, 
+.products-conatiner-06 article p {
+    text-align: justify;  /* align text horizontal ato edge of container */
+    color: #000000; /* set font color */
+    font-size: 1.3vh; /* set flexible font size */
+}
+
+
 .products-conatiner-01 {
     background-color: #f17273; /* Add background color*/
+}
+
+.products-conatiner-01 h2 {
+    color: #bf0202; /* set font color */
+    margin-top: 20px; /* set space outside on top of container */
 }
 
 .products-conatiner-02 {
     background-color: #f1a470; /* Add background color*/
 }
 
+.products-conatiner-02 h2 {
+    color: #aa5924; /* set font color */
+    margin-top: 20px; /* set space outside on top of container */
+}
+
 .products-conatiner-03 {
     background-color: #f1c471; /* Add background color*/
+}
+
+
+.products-conatiner-03 h2 {
+    color: #c09003; /* set font color */
+    margin-top: 20px;  /* set space outside on top of container */
 }
 
 .products-conatiner-04 {
     background-color: #c7dfbd; /* Add background color*/
 }
 
+.products-conatiner-04 h2 {
+    color: #11786f;  /* set font color */
+}
+
 .products-conatiner-05 {
     background-color: #bfd8dd; /* Add background color*/
 }
 
+.products-conatiner-05 h2 {
+    color: #4677a2; /* set font color */
+}
+
 .products-conatiner-06 {
     background-color: #707070; /* Add background color*/
+}
+
+.products-conatiner-06 h2 {
+    color: #c59611; /* set font color */
 }
 
 
@@ -190,13 +247,23 @@ html,body {
     width: 100vw; /* Set to width of parent element*/
     height: 100vh; /* Set to reference height of parent element*/
     background-color: #bfd8dd; /* Add background color*/
-    
+
+}
+
+#ourstory h2{
+    text-align: center; /* center text horizontally */
+    margin-bottom: 20px; /* set outside space at bottom of heading */
+    font-size: 3.2vh; /* set flexible font size */
 }
 
 #stockists {
     width: 100vw; /* Set to width of parent element*/
     height: 100vh; /* Set to reference height of parent element*/
     background-color: #bfd8dd; /* Add background color*/
+}
+
+#stockists address{
+    width: 100%; /*set width to 100% of parent */
 }
 
 .spacer {
@@ -326,24 +393,51 @@ span{
 #contact {
     text-align: center; /* centre items in parent*/
     align-items: center; /* centre items in parent*/
+
+}
+
+#contact address {
+    font-size: 1.6vh;  /* set font size*/
 }
 
 .contact-bottom-section {
     position: relative;  /* set position relative to its normal position*/
     width: 100%; /* Set to width of parent element*/
     height: 47vh; /* Set to reference height of parent element*/
-    font-size: 5vw; /* set font size*/
+    font-size: 5vh; /* set font size*/
+    
+}
+
+.contact-bottom-section h2 {
+    font-size: 2.2vh;  /* set font size*/
+    text-align: center; /* centre items in parent*/
+}
+
+.contact-bottom-section h3 {
+    font-size: 1.3vh;  /* set font size*/
+    text-align: center; /* centre items in parent*/
+    margin-bottom: 1.2vh; /*  */
 }
 
 .contact-bottom-section article {
+    display:block ; /* set vertical alignment */
+    width: 100%; /* set width to full width of parent element */
     font-size: 16px; /* set font size*/
     text-align: right; /* align text to the right side*/
-    padding-right: 43vw;  /* set inside spacing area value*/
 }
 
-#fname, #lname , #email{
+.contact-bottom-section .container {
+    display: flex; /* make container flexible */
+    flex-direction: column; /* set alignment to vertical */
+    width: 100%; /* set width to full width of parent element */
+    align-items: center; /* centre items in parent*/
+    font-size: 1.6vh; /* set font size*/
+    margin: 0; /* set outside area value*/
+
+}
+
+#fname, #lname , #email {
     height:40px; /* Set to reference height of parent element*/
-    font-size: 14px; /* set font size*/
     width: 300px; /* Set to width of parent element*/
 }
 
@@ -364,6 +458,10 @@ span{
 
 /* Mobile screen 360px x 640px */
 @media screen and (max-width: 640px) {
+    body {
+        overflow:auto; /* hide scroll bar*/
+    }
+
     .nav-logo {
         position: relative;  /* set position relative to its normal position*/
         height: 6vh; /* set hight to percentage of viewport*/
@@ -591,9 +689,13 @@ span{
 
 /* Tablet screen 1024px x 768px */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        overflow-y:auto; /* show y access scroll bar*/
+        overflow-x: hidden; /* hide x access scroll bar*/
+    }
 
     h1 {
-        display: none; /* dont display menu until needed by hover*/
+        display: none; /* don't display menu until needed by hover*/
 
     }
 
@@ -618,7 +720,7 @@ span{
     }
       
     .menu-content {
-        display: none; /* dont display menu until needed by hover*/
+        display: none; /* don't' display menu until needed by hover*/
         position: absolute; /*position relative to the nearest positioned parent*/
         right: 0; /* set horizontal position of element*/
         background-color: #f9f9f9; /* Add background color*/
@@ -630,7 +732,7 @@ span{
     }
 
     .menu-content ul {
-        list-style: none;
+        list-style: none; /*  */
         display: block; /*display an element as a block */
     }
       
@@ -728,7 +830,7 @@ span{
     }
 
     #contact{
-        margin-top: 50vh;
+        margin-top: 50vh;  /* set outside area value*/
     }
 
     .stockists-container h2 a{
@@ -773,7 +875,6 @@ span{
 /* Desktop screen 1366px x 768px */
 @media screen and (min-width: 769px){
     .menubtn {
-        display: none;
+        display: none; /* hide bottom on right side when not needed */
     }
-
 }
