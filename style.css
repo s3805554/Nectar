@@ -184,7 +184,7 @@ html,body {
     font-family:Verdana, Geneva, Tahoma, sans-serif; /* change font style */
     margin-top: 3px; /* set space outside on top of container */
     margin-bottom: 3px; /*  set space outside on bottom of container */
-    font-size: 1.0-vh;
+    font-size: 1.0vh;
 }
 
 .products-container-01 article p, 
