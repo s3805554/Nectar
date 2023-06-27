@@ -172,7 +172,7 @@ html,body {
 .products-container-04 h2, 
 .products-container-05 h2, 
 .products-container-06 h2 {
-    font-size: 1.7vh;
+    font-size: 1.7vh;  /* add flexible font size */
 }
 .products-container-01 h4, 
 .products-container-02 h4, 
@@ -184,7 +184,7 @@ html,body {
     font-family:Verdana, Geneva, Tahoma, sans-serif; /* change font style */
     margin-top: 3px; /* set space outside on top of container */
     margin-bottom: 3px; /*  set space outside on bottom of container */
-    font-size: 1.0vh;
+    font-size: 1.0vh;  /* add flexible font size */
 }
 
 .products-container-01 article p, 
@@ -262,9 +262,9 @@ html,body {
     text-align: center; /* center text horizontally */
     margin-bottom: 20px; /* set outside space at bottom of heading */
     font-size: 3.2vh; /* set flexible font size */
-    margin-top: 8vh;
-    margin-bottom: 0vh;
-    color: #4677a2;
+    margin-top: 8vh; /* add space at top*/
+    margin-bottom: 0vh; /* remove space at bottom*/
+    color: #4677a2; /* change font color */
 }
 
 #stockists {
@@ -311,9 +311,9 @@ html,body {
 }
 
 #ourStory section article h3 {
-    text-align: center;
-    margin-bottom: 6vh;
-    font-size: 2.1vh;
+    text-align: center;  /* align text horizontal center*/
+    margin-bottom: 6vh;  /* add space at top*/
+    font-size: 2.1vh;  /* set flexible font size */
 
 }
 
