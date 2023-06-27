@@ -256,13 +256,15 @@ html,body {
     width: 100vw; /* Set to width of parent element*/
     height: 100vh; /* Set to reference height of parent element*/
     background-color: #bfd8dd; /* Add background color*/
-
 }
 
 #ourStory h2{
     text-align: center; /* center text horizontally */
     margin-bottom: 20px; /* set outside space at bottom of heading */
     font-size: 3.2vh; /* set flexible font size */
+    margin-top: 8vh;
+    margin-bottom: 0vh;
+    color: #4677a2;
 }
 
 #stockists {
@@ -305,7 +307,14 @@ html,body {
 }
 
 #ourStory section article {
-    padding: 15vh 10vh 0vh 10vh;  /* set inside spacing area value*/
+    padding: 5vh 10vh 0vh 10vh;  /* set inside spacing area value*/
+}
+
+#ourStory section article h3 {
+    text-align: center;
+    margin-bottom: 6vh;
+    font-size: 2.1vh;
+
 }
 
 #ourStory section article p {
