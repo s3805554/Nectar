@@ -156,100 +156,100 @@ html,body {
     width: auto; /* let width adjust automatically by design*/
 }
 
-.products-conatiner-01 article, 
-.products-conatiner-02 article, 
-.products-conatiner-03 article, 
-.products-conatiner-04 article, 
-.products-conatiner-05 article, 
-.products-conatiner-06 article {
+.products-container-01 article, 
+.products-container-02 article, 
+.products-container-03 article, 
+.products-container-04 article, 
+.products-container-05 article, 
+.products-container-06 article {
     text-align: center; /* align text horizontal center */
 }
 
-.products-conatiner-01 h4, 
-.products-conatiner-02 h4, 
-.products-conatiner-03 h4, 
-.products-conatiner-04 h4, 
-.products-conatiner-05 h4, 
-.products-conatiner-06 h4 {
+.products-container-01 h4, 
+.products-container-02 h4, 
+.products-container-03 h4, 
+.products-container-04 h4, 
+.products-container-05 h4, 
+.products-container-06 h4 {
     color: #000000; /* set font color */
     font-family:Verdana, Geneva, Tahoma, sans-serif; /* change font style */
     margin-top: 3px; /* set space outside on top of container */
     margin-bottom: 3px; /*  set space outside on bottom of container */
 }
 
-.products-conatiner-01 article p, 
-.products-conatiner-02 article p, 
-.products-conatiner-03 article p, 
-.products-conatiner-04 article p, 
-.products-conatiner-05 article p, 
-.products-conatiner-06 article p {
+.products-container-01 article p, 
+.products-container-02 article p, 
+.products-container-03 article p, 
+.products-container-04 article p, 
+.products-container-05 article p, 
+.products-container-06 article p {
     text-align: justify;  /* align text horizontal ato edge of container */
     color: #000000; /* set font color */
     font-size: 1.3vh; /* set flexible font size */
 }
 
 
-.products-conatiner-01 {
+.products-container-01 {
     background-color: #f17273; /* Add background color*/
 }
 
-.products-conatiner-01 h2 {
+.products-container-01 h2 {
     color: #bf0202; /* set font color */
     margin-top: 20px; /* set space outside on top of container */
 }
 
-.products-conatiner-02 {
+.products-container-02 {
     background-color: #f1a470; /* Add background color*/
 }
 
-.products-conatiner-02 h2 {
+.products-container-02 h2 {
     color: #aa5924; /* set font color */
     margin-top: 20px; /* set space outside on top of container */
 }
 
-.products-conatiner-03 {
+.products-container-03 {
     background-color: #f1c471; /* Add background color*/
 }
 
 
-.products-conatiner-03 h2 {
+.products-container-03 h2 {
     color: #c09003; /* set font color */
     margin-top: 20px;  /* set space outside on top of container */
 }
 
-.products-conatiner-04 {
+.products-container-04 {
     background-color: #c7dfbd; /* Add background color*/
 }
 
-.products-conatiner-04 h2 {
+.products-container-04 h2 {
     color: #11786f;  /* set font color */
 }
 
-.products-conatiner-05 {
+.products-container-05 {
     background-color: #bfd8dd; /* Add background color*/
 }
 
-.products-conatiner-05 h2 {
+.products-container-05 h2 {
     color: #4677a2; /* set font color */
 }
 
-.products-conatiner-06 {
+.products-container-06 {
     background-color: #707070; /* Add background color*/
 }
 
-.products-conatiner-06 h2 {
+.products-container-06 h2 {
     color: #c59611; /* set font color */
 }
 
 
-#ourstory {
+#ourStory {
     width: 100vw; /* Set to width of parent element*/
     height: 100vh; /* Set to reference height of parent element*/
     background-color: #bfd8dd; /* Add background color*/
 
 }
 
-#ourstory h2{
+#ourStory h2{
     text-align: center; /* center text horizontally */
     margin-bottom: 20px; /* set outside space at bottom of heading */
     font-size: 3.2vh; /* set flexible font size */
@@ -278,7 +278,7 @@ html,body {
 }
 
 
-#ourstory {
+#ourStory {
     display: flex; /* set display type tp flexbox for directional changes*/
     width: 100%; /* Set to width of parent element*/
     height: 100%; /* Set to reference height of parent element*/
@@ -287,18 +287,18 @@ html,body {
 
 
 
-#ourstory section {
+#ourStory section {
     display: block; /* set element to a block type*/
     text-align: justify; /* stretch text to have even left and right sides*/
     width: 100%; /* Set to width of parent element*/
     height: 100%; /* Set to reference height of parent element*/
 }
 
-#ourstory section article {
+#ourStory section article {
     padding: 15vh 10vh 0vh 10vh;  /* set inside spacing area value*/
 }
 
-#ourstory section article p {
+#ourStory section article p {
     font-size: 1.6vw; /* set font size*/
     padding: 50px;  /* set inside spacing area value*/
     border: #ffffff 3px solid; /* add outline border*/
@@ -336,6 +336,7 @@ span{
     row-gap: 0px; /* set 0 gap between grids*/
     column-gap: 0px; /* set 0 gap between grids*/
     padding: 10vh 6vw 6vw 6vw;  /* set inside spacing area value*/
+    text-align: center; /* center text horizontally*/
 
 }
 
@@ -552,30 +553,30 @@ span{
 
        /* our story mobile settings
        start here*/
-    #ourstory {
+    #ourStory {
         display: inline-block; /*display an element as a block with width and height feature */
         width: 100vw; /* Set to width of parent element*/
 
     }
     
-    #ourstory section {
+    #ourStory section {
         display: inline-block; /*display an element as a block with width and height feature */
         text-align: justify; /* stretch text to have even left and right sides*/
         width: 100vw; /* Set to width of parent element*/
     }
     
-    #ourstory section article {
+    #ourStory section article {
         padding: 5vh 2vh 0vh 2vh;  /* set inside spacing area value*/
     }
     
-    #ourstory section article p {
+    #ourStory section article p {
         font-size: 4vw; /* set font size*/
         font-weight: bold;  /* set font thicker */
         padding: 2vh 3vh 2vh 3vh;  /* set inside spacing area value*/
         border-radius: 0px; /* remove rounded corners*/
     }
     
-    #ourstory section article h1 {
+    #ourStory section article h1 {
         display: none; /* hide element until required*/
     }
 
@@ -782,22 +783,22 @@ span{
 
     }
 
-    #ourstory {
+    #ourStory {
         display: inline-block; /*display an element as a block with width and height feature */
         width: 100vw; /* Set to width of parent element*/
     }
 
-    #ourstory section {
+    #ourStory section {
         display: inline-block; /*display an element as a block with width and height feature */
         text-align: justify; /* stretch text to have even left and right sides*/
     }
 
-    #ourstory section article {
+    #ourStory section article {
         width: 80vw; /* Set to width of parent element*/
         padding-left: 10vw;  /* set inside spacing area value*/
     }
 
-    #ourstory section article p {
+    #ourStory section article p {
         font-size: 3vw; /* set font size*/
         font-weight: bold;  /* set font thicker */
         padding: 2vh 1vh 2vh 1vh;  /* set inside spacing area value*/
