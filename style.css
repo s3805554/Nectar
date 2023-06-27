@@ -171,11 +171,7 @@ html,body {
 .products-container-03 h2, 
 .products-container-04 h2, 
 .products-container-05 h2, 
-.products-container-06 h24 {
-    color: #000000; /* set font color */
-    font-family:Verdana, Geneva, Tahoma, sans-serif; /* change font style */
-    margin-top: 3px; /* set space outside on top of container */
-    margin-bottom: 3px; /*  set space outside on bottom of container */
+.products-container-06 h2 {
     font-size: 1.7vh;
 }
 .products-container-01 h4, 
