@@ -23,7 +23,6 @@ html,body {
     width: 100vw; /* Set to width of parent element*/
     height: 100vh; /* Set to height of parent element*/
     background-color: black; /* Add background color*/
-    overflow: hidden; /* hide scroll bar*/
 }
 
 .nav-container {
